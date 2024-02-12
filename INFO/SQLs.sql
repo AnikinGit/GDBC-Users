@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS users
   PRIMARY KEY (id)
 );
 
-INSERT INTO users (name, email) VALUES (?, ?, ?, ?);
+INSERT INTO users (name, email) VALUES (?, ?);
 
 SELECT * FROM users;
 
